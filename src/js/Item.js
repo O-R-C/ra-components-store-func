@@ -4,7 +4,7 @@ export default class Item {
     this.title = title
     this.description = description
     this.descriptionFull = descriptionFull
-    this.price = price
+    this.price = price.toFixed(2)
     this.currency = currency
   }
 }
